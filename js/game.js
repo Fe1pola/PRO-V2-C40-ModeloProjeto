@@ -61,7 +61,8 @@ class Game{
                          fill("red");
                          textSize(20);
                          //adicione o código para exibir o nome do jogador na respectiva cesta
-
+                         text(allPlayers.player1.name, x, y);
+                         text(allPlayers.player2.name, x, y);
                          
                      }
                     
